@@ -31,7 +31,6 @@ export const getServerSideProps = wrapper.getServerSideProps(
   (store) => async (context) => {
     const page = Number(context.query?.page || 1);
 
-    console.log("page", page);
     store.dispatch(getTodos.initiate(page));
     store.dispatch(getAllTodos.initiate(undefined));
 
@@ -73,7 +72,7 @@ export default function HomePage() {
     >
       <Head>
         <title>
-          {router.query.page ? `Page ${router.query.page} |` : ""} My Todo List
+          {currentPage > 1 ? `Page ${router.query.page} |` : ""} My Todo List
         </title>
       </Head>
 

@@ -60,6 +60,16 @@ Before running the project, make sure you have:
    ```
 Then visit: http://localhost:3000
 
+**Start as Development Mode**   
+Using npm:
+   ```bash
+   npm run dev
+   ```
+   
+Or using yarn:
+   ```bash
+   yarn dev
+   ```
 ## 📂 About the Project
 
 This project is structured to follow clean separation of concerns between components, pages, and logic:
