@@ -70,7 +70,7 @@ export default function TodoPage() {
       className={`${geistSans.className} ${geistMono.className} font-sans flex flex-col items-center min-h-screen px-4`}
     >
       <Head>
-        <title>{data?.title || "-"} | Todo Detail</title>
+        <title>{`${data?.title} | Todo Detail`}</title>
       </Head>
 
       <Header

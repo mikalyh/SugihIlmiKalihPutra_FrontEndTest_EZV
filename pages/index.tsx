@@ -72,7 +72,9 @@ export default function HomePage() {
     >
       <Head>
         <title>
-          {currentPage > 1 ? `Page ${router.query.page} |` : ""} My Todo List
+          {currentPage > 1
+            ? `Page ${router.query.page} | My Todo List`
+            : "My Todo List"}
         </title>
       </Head>
 

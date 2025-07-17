@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>My Todo List</title>
         <meta
           name="description"
           content="This is a todo app built with Next.js for Skill Test PT. EZV Service Indonesia."
