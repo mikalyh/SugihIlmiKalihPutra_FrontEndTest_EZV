@@ -111,3 +111,10 @@ This project is structured to follow clean separation of concerns between compon
 - [Tiktok](https://www.tiktok.com/@_mikalyh) 
 - [Youtube](https://www.youtube.com/@mikalyh) 
 - [Linkedin](https://www.linkedin.com/in/sugih-ilmi-kalih-putra-8a19a0185/) 
+
+## 🖼️ Screenshots
+![S1.](/assets/images/ss_1.jpeg)
+![S2.](/assets/images/ss_2.jpeg)
+![S3.](/assets/images/ss_3.jpeg)
+![S4.](/assets/images/ss_4.jpeg)
+![S5.](/assets/images/ss_5.jpeg)
