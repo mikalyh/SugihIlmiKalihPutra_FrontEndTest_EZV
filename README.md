@@ -75,7 +75,7 @@ Or using yarn:
 This project is structured to follow clean separation of concerns between components, pages, and logic:
 ```bash
 .
-├── assets/              # Assets (e.g. Lottie Animations)
+├── assets/              # Assets (Images, Animations, etc)
 ├── components/          # Reusable UI components (TodoCard, Pagination, Footer, etc.)
 ├── lib/                 # Redux store setup
 ├────── features/        # RTK Query API slice for fetching todos
