@@ -1,7 +1,13 @@
 {
   "name": "todo-page",
+  "description": "This is a todo app built with Next.js for Skill Test PT. EZV Service Indonesia.",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Sugih Ilmi Kalih Putra (Mikalyh)",
+    "email": "sugih.ikp28@gmail.com",
+    "url": "https://github.com/Mikalyh"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -9,16 +15,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@bprogress/next": "^3.2.12",
+    "@reduxjs/toolkit": "^2.8.2",
+    "formik": "^2.4.6",
+    "lottie-react": "^2.4.1",
+    "next": "15.4.1",
+    "next-redux-wrapper": "^8.1.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.4.1"
+    "react-redux": "^9.2.0",
+    "yup": "^1.6.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
